@@ -72,4 +72,4 @@ How each ghost reaches its target is what gives it a personality. `move_blinky`,
 
 ## 🙏 Credits
 
-Based on [LeMaster Tech](https://www.youtube.com/@lemastertech)'s Pygame Pac-Man tutorial, extended with a start menu and a SQLite high-score table.
+Based on [LeMaster Tech](https://www.youtube.com/@lemastertech)'s Pygame Pac-Man tutorial, extended with a start menu and a SQLite high-score table. The title screen and buttons are custom artwork, and the maze uses a violet palette.

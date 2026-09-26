@@ -16,7 +16,7 @@ timer = pygame.time.Clock()
 fps = 60
 font = pygame.font.Font('freesansbold.ttf', 20)
 level = copy.deepcopy(boards)
-color = 'blue'
+color = '#7c3aed'
 PI = math.pi
 player_images = []
 for i in range(1, 5):
@@ -73,8 +73,8 @@ connection=sqlite3.connect("Score.db")
 cursor=connection.cursor()
 time=time.time()
 date=str(datetime.datetime.fromtimestamp(time).strftime("%D %H.%M.%S"))
-start_button = menu.Button(373, 440, start_img, 0.9)
-exit_button = menu.Button(380, 520, exit_img, 0.9)
+start_button = menu.Button(354, 440, start_img, 0.9)
+exit_button = menu.Button(361, 520, exit_img, 0.9)
 
 class Ghost:
     def __init__(self, x_coord, y_coord, target, speed, img, direct, dead, box, id):
